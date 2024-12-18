@@ -1,0 +1,34 @@
+{
+  "__version__": "1.0.1",
+  "builder": {
+    "common": {
+      "polyfills": {
+        "asyncFunctions": true
+      },
+      "md5Cache": true,
+      "sourceMaps": true,
+      "debug": false
+    },
+    "options": {
+      "web-desktop": {
+        "resolution": {
+          "designWidth": 750,
+          "designHeight": 1334
+        },
+        "cullEngineAsmJsModule": false,
+        "__version__": "1.0.1"
+      }
+    },
+    "taskOptionsMap": {
+      "1731932012599": {
+        "resolution": {
+          "designWidth": 750,
+          "designHeight": 1334
+        },
+        "cullEngineAsmJsModule": false,
+        "__version__": "1.0.1"
+      }
+    },
+    "__version__": "1.3.7"
+  }
+}

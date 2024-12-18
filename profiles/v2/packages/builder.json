@@ -1,0 +1,291 @@
+{
+  "__version__": "1.3.7",
+  "log": {
+    "level": 4
+  },
+  "common": {
+    "polyfills": {
+      "asyncFunctions": true
+    },
+    "md5Cache": true,
+    "sourceMaps": true,
+    "debug": false,
+    "buildPath": "project://build",
+    "outputName": "wechatgame",
+    "mainBundleCompressionType": "merge_dep",
+    "platform": "wechatgame",
+    "scenes": [
+      {
+        "url": "db://assets/battle/battle.scene",
+        "uuid": "4b8472dd-9cc6-4ba3-ae65-ffcd38d54e4e",
+        "bundle": "db://assets/battle"
+      },
+      {
+        "url": "db://assets/home/home.scene",
+        "uuid": "8536e0c2-92d2-444f-a5a9-d9606d93d24d",
+        "bundle": "db://assets/home"
+      },
+      {
+        "url": "db://assets/loading/loading.scene",
+        "uuid": "1e51793d-4a76-492f-85e8-a371bbe76a14"
+      }
+    ],
+    "useSplashScreen": true,
+    "name": "多多很机智",
+    "skipCompressTexture": true,
+    "useBuiltinServer": false,
+    "server": "https://kkbqb-cdn.galsanggame.com/qqemoji/wxtest",
+    "mainBundleIsRemote": false
+  },
+  "BuildTaskManager": {
+    "taskMap": {
+      "1731932012599": {
+        "type": "build",
+        "id": "1731932012599",
+        "progress": 1,
+        "state": "success",
+        "stage": "run",
+        "message": "2024-11-18 20:21:11 run package D:\\Cocos\\QQemoji\\Src\\ClientProject\\build\\web-desktop success!",
+        "options": {
+          "name": "ClientProject",
+          "server": "",
+          "platform": "web-desktop",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": true,
+          "skipCompressTexture": false,
+          "sourceMaps": true,
+          "polyfills": {
+            "asyncFunctions": true
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": true,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "1e51793d-4a76-492f-85e8-a371bbe76a14",
+          "outputName": "web-desktop",
+          "taskName": "web-desktop",
+          "scenes": [
+            {
+              "url": "db://assets/battle/battle.scene",
+              "uuid": "62f24e34-5d04-47f6-9fa6-d7f0d8a1d4ed",
+              "bundle": "db://assets/battle"
+            },
+            {
+              "url": "db://assets/home/home.scene",
+              "uuid": "2c777a4c-7acf-4760-a9b8-d038a5b5769c",
+              "bundle": "db://assets/home"
+            },
+            {
+              "url": "db://assets/loading/loading.scene",
+              "uuid": "1e51793d-4a76-492f-85e8-a371bbe76a14"
+            }
+          ],
+          "packages": {},
+          "__version__": "1.3.7",
+          "buildMode": "normal",
+          "logDest": "project://temp/builder/log/web-desktop2024-11-18 20-13.log"
+        },
+        "time": "2024-11-18 20:17:24",
+        "dirty": true,
+        "rawOptions": {
+          "name": "ClientProject",
+          "server": "",
+          "platform": "web-desktop",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": true,
+          "skipCompressTexture": false,
+          "sourceMaps": true,
+          "polyfills": {
+            "asyncFunctions": true
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": true,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "1e51793d-4a76-492f-85e8-a371bbe76a14",
+          "outputName": "web-desktop",
+          "taskName": "web-desktop",
+          "scenes": [
+            {
+              "url": "db://assets/battle/battle.scene",
+              "uuid": "62f24e34-5d04-47f6-9fa6-d7f0d8a1d4ed",
+              "bundle": "db://assets/battle"
+            },
+            {
+              "url": "db://assets/home/home.scene",
+              "uuid": "2c777a4c-7acf-4760-a9b8-d038a5b5769c",
+              "bundle": "db://assets/home"
+            },
+            {
+              "url": "db://assets/loading/loading.scene",
+              "uuid": "1e51793d-4a76-492f-85e8-a371bbe76a14"
+            }
+          ],
+          "packages": {
+            "engine": {
+              "cleanupImageCache": "inheritProjectSetting",
+              "__version__": "1.0.8"
+            },
+            "adsense-h5g-plugin": {
+              "enableAdsense": false,
+              "enableTestAd": false,
+              "__version__": "1.0.1",
+              "AFPHostPropertyCode": "ca-host-pub-5396158963872751",
+              "AFPHostDomain": "douyougame.com",
+              "otherAFPHostPropertyCode": "",
+              "otherAFPDomain": ""
+            },
+            "cocos-service": {
+              "configID": "4f9955",
+              "services": []
+            },
+            "web-desktop": {
+              "resolution": {
+                "designWidth": 750,
+                "designHeight": 1334
+              },
+              "cullEngineAsmJsModule": false,
+              "__version__": "1.0.1"
+            }
+          },
+          "__version__": "1.3.7",
+          "buildMode": "normal",
+          "logDest": "project://temp/builder/log/web-desktop2024-11-18 20-13.log"
+        }
+      },
+      "1732176693031": {
+        "type": "build",
+        "id": "1732176693031",
+        "progress": 1,
+        "state": "failure",
+        "stage": "run",
+        "message": "2024-11-22 16:14:29 run package D:\\Cocos\\QQemoji\\Src\\ClientProject\\build\\android failed!",
+        "options": {
+          "name": "ClientProject",
+          "server": "",
+          "platform": "android",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": false,
+          "polyfills": {
+            "asyncFunctions": false
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": true,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "1e51793d-4a76-492f-85e8-a371bbe76a14",
+          "outputName": "android",
+          "taskName": "android",
+          "scenes": [
+            {
+              "url": "db://assets/battle/battle.scene",
+              "uuid": "62f24e34-5d04-47f6-9fa6-d7f0d8a1d4ed",
+              "bundle": "db://assets/battle"
+            },
+            {
+              "url": "db://assets/home/home.scene",
+              "uuid": "2c777a4c-7acf-4760-a9b8-d038a5b5769c",
+              "bundle": "db://assets/home"
+            },
+            {
+              "url": "db://assets/loading/loading.scene",
+              "uuid": "1e51793d-4a76-492f-85e8-a371bbe76a14"
+            }
+          ],
+          "packages": {},
+          "__version__": "1.3.7",
+          "buildMode": "normal",
+          "logDest": "project://temp/builder/log/android2024-11-21 16-11.log",
+          "buildStageGroup": {
+            "build": [],
+            "make": [
+              "run"
+            ]
+          }
+        },
+        "time": "2024-11-22 15:42:32",
+        "dirty": false
+      },
+      "1732767263627": {
+        "type": "build",
+        "id": "1732767263627",
+        "progress": 1,
+        "state": "success",
+        "stage": "build",
+        "message": "2024-12-18 09:49:20 build -> run success in 25 s!",
+        "options": {
+          "name": "多多很机智",
+          "server": "https://kkbqb-cdn.galsanggame.com/qqemoji/wxtest",
+          "platform": "wechatgame",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": true,
+          "skipCompressTexture": true,
+          "sourceMaps": true,
+          "polyfills": {
+            "asyncFunctions": false
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": true,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "1e51793d-4a76-492f-85e8-a371bbe76a14",
+          "outputName": "wechatgame",
+          "taskName": "wechatgame",
+          "scenes": [
+            {
+              "url": "db://assets/battle/battle.scene",
+              "uuid": "4b8472dd-9cc6-4ba3-ae65-ffcd38d54e4e",
+              "bundle": "db://assets/battle"
+            },
+            {
+              "url": "db://assets/home/home.scene",
+              "uuid": "8536e0c2-92d2-444f-a5a9-d9606d93d24d",
+              "bundle": "db://assets/home"
+            },
+            {
+              "url": "db://assets/loading/loading.scene",
+              "uuid": "1e51793d-4a76-492f-85e8-a371bbe76a14"
+            }
+          ],
+          "packages": {},
+          "__version__": "1.3.7",
+          "buildMode": "normal",
+          "logDest": "project://temp/builder/log/wechatgame2024-11-28 12-14.log",
+          "buildStageGroup": {
+            "build": [
+              "run"
+            ]
+          }
+        },
+        "time": "2024-12-18 09:48:54",
+        "dirty": true
+      }
+    }
+  }
+}

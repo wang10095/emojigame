@@ -1,0 +1,26 @@
+{
+    "wechatgame": {
+        "version": "1.0.0",
+        "debug": false,
+        "md5Cache": true,
+        "skipCompressTexture": false,
+        "sourceMaps": false,
+        "server": ""
+    },
+    "ttgame": {
+        "version": "1.0.0",
+        "debug": false,
+        "md5Cache": true,
+        "skipCompressTexture": false,
+        "sourceMaps": false,
+        "server": ""
+    },
+    "web-desktop": {
+        "version": "1.0.0",
+        "debug": true,
+        "md5Cache": true,
+        "skipCompressTexture": false,
+        "sourceMaps": true,
+        "server": ""
+    },
+}

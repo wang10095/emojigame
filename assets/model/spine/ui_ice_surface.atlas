@@ -1,0 +1,97 @@
+
+ui_ice_surface.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+11
+  rotate: false
+  xy: 2, 2
+  size: 412, 304
+  orig: 412, 304
+  offset: 0, 0
+  index: -1
+12
+  rotate: false
+  xy: 758, 674
+  size: 159, 304
+  orig: 159, 304
+  offset: 0, 0
+  index: -1
+13
+  rotate: false
+  xy: 416, 2
+  size: 327, 304
+  orig: 327, 304
+  offset: 0, 0
+  index: -1
+14
+  rotate: false
+  xy: 745, 2
+  size: 108, 304
+  orig: 108, 304
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 2, 674
+  size: 754, 304
+  orig: 754, 305
+  offset: 0, 1
+  index: -1
+5
+  rotate: false
+  xy: 2, 308
+  size: 749, 300
+  orig: 750, 300
+  offset: 0, 0
+  index: -1
+TX_yan_0032
+  rotate: true
+  xy: 855, 260
+  size: 92, 88
+  orig: 96, 92
+  offset: 2, 2
+  index: -1
+TX_yan_0034
+  rotate: true
+  xy: 919, 610
+  size: 107, 94
+  orig: 111, 99
+  offset: 2, 3
+  index: -1
+TX_yan_0036
+  rotate: true
+  xy: 919, 719
+  size: 122, 98
+  orig: 126, 102
+  offset: 3, 2
+  index: -1
+TX_yan_0038
+  rotate: true
+  xy: 919, 843
+  size: 135, 102
+  orig: 140, 107
+  offset: 3, 2
+  index: -1
+TX_yan_0040
+  rotate: false
+  xy: 753, 354
+  size: 142, 105
+  orig: 146, 109
+  offset: 1, 2
+  index: -1
+TX_yan_0042
+  rotate: true
+  xy: 753, 461
+  size: 147, 104
+  orig: 151, 109
+  offset: 0, 1
+  index: -1
+TX_yan_0044
+  rotate: false
+  xy: 859, 504
+  size: 138, 104
+  orig: 153, 108
+  offset: 10, 0
+  index: -1

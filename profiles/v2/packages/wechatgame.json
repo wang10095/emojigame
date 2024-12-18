@@ -1,0 +1,66 @@
+{
+  "__version__": "1.0.4",
+  "builder": {
+    "common": {
+      "buildPath": "project://build",
+      "outputName": "wechatgame",
+      "mainBundleCompressionType": "merge_dep",
+      "platform": "wechatgame",
+      "useBuiltinServer": false,
+      "name": "多多很机智",
+      "md5Cache": true,
+      "sourceMaps": true,
+      "buildStageGroup": {
+        "build": [
+          "run"
+        ]
+      },
+      "server": "https://kkbqb-cdn.galsanggame.com/qqemoji/wxtest",
+      "skipCompressTexture": true,
+      "mainBundleIsRemote": false,
+      "scenes": [
+        {
+          "url": "db://assets/battle/battle.scene",
+          "uuid": "4b8472dd-9cc6-4ba3-ae65-ffcd38d54e4e",
+          "bundle": "db://assets/battle"
+        },
+        {
+          "url": "db://assets/home/home.scene",
+          "uuid": "8536e0c2-92d2-444f-a5a9-d9606d93d24d",
+          "bundle": "db://assets/home"
+        },
+        {
+          "url": "db://assets/loading/loading.scene",
+          "uuid": "1e51793d-4a76-492f-85e8-a371bbe76a14"
+        }
+      ]
+    },
+    "taskOptionsMap": {
+      "1732767263627": {
+        "orientation": "portrait",
+        "appid": "wx121fab7bca0a24c2",
+        "buildOpenDataContextTemplate": "",
+        "separateEngine": false,
+        "highPerformanceMode": true,
+        "enabelWebGL2": "off",
+        "wasm": "wasm",
+        "__version__": "1.0.4",
+        "wasmSubpackage": true
+      }
+    },
+    "__version__": "1.3.7",
+    "options": {
+      "wechatgame": {
+        "orientation": "portrait",
+        "appid": "wx121fab7bca0a24c2",
+        "buildOpenDataContextTemplate": "",
+        "separateEngine": false,
+        "highPerformanceMode": true,
+        "enabelWebGL2": "off",
+        "wasm": "wasm",
+        "__version__": "1.0.4",
+        "wasmSubpackage": true
+      }
+    }
+  }
+}
